@@ -1,0 +1,26 @@
+{
+  "name": "fast-foods-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "aron lewenei",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leweneiaron/fast-foods-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leweneiaron/fast-foods-server/issues"
+  },
+  "homepage": "https://github.com/leweneiaron/fast-foods-server#readme",
+  "description": ""
+}
