@@ -9,8 +9,8 @@ const pool = mysql.createPool({
 });
           
 
-app.get("/api/food", (req, res) => {
-    pool.query("SELECT id, name FROM food", (error, rows) => {
+app.get("/api/shop", (req, res) => {
+    pool.query("SELECT id, name FROM shop", (error, rows) => {
         if (error) {
              return res.status(500).json({ error });
         }
